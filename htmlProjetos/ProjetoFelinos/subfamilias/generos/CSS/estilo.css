@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+body {
+     background-color: #0e42ff;
+     color: #060015;
+     font-family: Arial, sans-serif;
+}
+
+div#interface {
+    width: 600px;
+    background-color: #00a4ff;
+    margin: -20px auto 100px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px;   
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+}
+
+
+header#cabecalho h1 {
+    text-align: center;    
+    font-size: 30pt;
+    color: #ffb707;
+    text-shadow: 2px 2px 2px rgba(21.3,15.7,1.9,1);
+}
+
+h2 {
+font-weight: bold;
+text-align: center;
+}
+
+h3 {
+text-align: justify;
+font-weight: 100;
+}
+
+h4 {
+font-weight: bold;
+text-align: center;
+}
+
+/* menu */
+nav#menu ul {
+    list-style: none;
+    position: relative;
+}
+
+nav#menu  li {
+    display: inline-block;
+    background-color: #ffda48;
+    padding: 5px;
+    margin: 1px;
+    transition: background-color 1s;
+}
+/* cor do quadrado quando passa o mouse */
+nav#menu li:hover {
+    background-color: #e70cb4;
+}
+/* azul dos links */
+nav#menu h1 {
+   display: none;
+}
+/* cor da letra e sublinhado */
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+/* cor da letra quando passa o mouse */
+nav#menu a:hover {
+    color:#ffffff;
+}
+/* fim do menu */
+
+figure.foto-legenda{
+     border: 5px solid white;
+     box-shadow: 1px 1px 4px black;
+     width: 300px;
+}
+
+
+div.foto-legenda img {
+    width: 100%;
+}
+
+/* tax */
+nav#tax ul {
+    
+    list-style: none;
+    position: absolute;
+    top: 170px;
+    right: 505px;
+}
+
+nav#tax  li {
+  
+    display: inline-block;
+    background-color: #ffda48;
+    padding: 50px 20px 50px 20px;
+    margin: 10px;
+    transition: background-color 1s;
+    border:4px solid #ffffff;
+}
+/* cor do quadrado quando passa o mouse */
+nav#tax li:hover {
+    background-color: #e70cb4;
+}
+/* azul dos links */
+nav#tax h1 {
+   display: none;
+}
+/* cor da letra e sublinhado */
+nav#tax a {
+    color: #000000;
+    text-decoration: none;
+}
+/* cor da letra quando passa o mouse */
+nav#tax a:hover {
+    color:#ffffff;
+}
+/* fim do tax */
+
+div.icone img {
+position: absolute;
+right: 300;
+top: 30;
+}
+
+/* fel */
+nav#fel ul {
+    
+    list-style: none;
+    position: absolute;
+    top: 170px;
+    right: 365px;
+    left: 325px;
+}
+
+nav#fel  li {
+  
+    display: inline-block;
+    background-color: #ffda48;
+    padding: 30px 10px 30px 10px;
+    margin: 5px;
+    transition: background-color 1s;
+    border:4px solid #ffffff;
+}
+/* cor do quadrado quando passa o mouse */
+nav#fel li:hover {
+    background-color: #e70cb4;
+}
+/* azul dos links */
+nav#fel h1 {
+   display: none;
+}
+/* cor da letra e sublinhado */
+nav#fel a {
+    color: #000000;
+    text-decoration: none;
+}
+/* cor da letra quando passa o mouse */
+
+
+nav#fel a:hover {
+    color:#ffffff;
+}
+/* fim do fel */
